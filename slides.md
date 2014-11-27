@@ -413,6 +413,39 @@ How can Firedrake make use of that for FE computations?
 
 ---
 
+class: center
+.scale80[![Firedrake vs. DOLFIN architecture](images/firedrake_toolchain_dolfin.svg)]
+
+???
+
+Version of the diagram that compares Firedrake and DOLFIN/FEniCS tool chains:
+
+* Key design decision:
+  * Python as main language (c.f. language bar in the middle)
+  * Cython to speed up performance-critical library code (mesh, sparsity
+      building) and interface to 3rd party libraries (PETSc via petsc4py)
+  * only lower to C for kernel execution
+  * we control C kernels completely, can use ctypes for lightweight interfacing
+  * DOLFIN: C++ library exposing a Python interface via SWIG (other way round)
+  * decompose and selectively lower high-level Firedrake constructs instead of
+    exposing functionality of C++ API to Python via SWIG
+* FFC not responsible for optimisation of code (role is only to produce an
+  abstract kernel loop nest suitable for optimisation by COFFEE)
+  * DOLFIN: FFC generates C++ string conforming to UFC interface
+  * Firedrake: FFC generates a kernel suitable for execution by PyOP2
+* UFC vs. parallel loops
+  * in UFC every kernel type has a special interface
+  * have to extend UFC if you want to do anything that is not yet specified
+  * parallel loop interface is completely flexible
+* escape hatch for things not expressible in UFL: e.g. compute maximum of CG
+  and DG functions for every CG DOF (slope limiters)
+* PyOP2 as parallel execution layer for assembly kernels: responsible for
+  storage, transfer and communication of data
+* PETSc used for meshes (DMPlex), nonlinear solves (SNES), linear solves (KSP, PC)
+* *No parallel code*: parallelism handled by PyOP2 + PETSc
+
+---
+
 .left70[
 ## Firedrake concepts
 .scale[![Firedrake types](images/firedrake_types.svg)]
