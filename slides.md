@@ -839,8 +839,7 @@ Contact: Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <flor
     * *[Productive and Efficient Computational Science Through Domain-specific Abstractions](https://wwwhomes.doc.ic.ac.uk/~fr710/Rathgeber-F-2014-PhD-Thesis.pdf)*  
       Florian Rathgeber, PhD thesis, October 2014
     * *[Cross-Loop Optimization of Arithmetic Intensity for Finite Element Local Assembly](http://arxiv.org/abs/1407.0904)*
-      Fabio Luporini, Ana Lucia Varbanescu, Florian Rathgeber, Gheorghe-Teodor Bercea, J. Ramanujam, David A. Ham, Paul H. J. Kelly,
-      submitted
+      Fabio Luporini, Ana Lucia Varbanescu, Florian Rathgeber, Gheorghe-Teodor Bercea, J. Ramanujam, David A. Ham, Paul H. J. Kelly
   * **UFL** https://bitbucket.org/mapdes/ufl
   * **FFC** https://bitbucket.org/mapdes/ffc
 
