@@ -548,6 +548,32 @@ void helmholtz_kernel(double A[3][3], double *x[2]) {
 
 ---
 
+## Escaping the abstraction - when UFL is not enough
+
+### Initialise a function with a random initial condition, seeded by the MPI rank
+```python
+from firedrake import par_loop
+
+init_code = "A[0] = 0.63 + 0.02*(0.5 - (double)random()/RAND_MAX);"
+user_code = """
+int __rank;
+MPI_Comm_rank(MPI_COMM_WORLD, &__rank);
+srandom(2 + __rank);
+"""
+par_loop(kernel=init_code, measure=direct, args={'A': (u[0], WRITE)},
+         headers=["#include <stdlib.h>"], user_code=user_code)
+```
+
+### Arguments
+
+* `kernel`: kernel code
+* `measure`: integration measure (direct for no indirection)
+* `args`: kernel access descriptors
+* `header`: optional headers to include
+* `user_code`: optional setup code (executed once)
+
+---
+
 ## Behind the scenes of the solve call
 
 * Firedrake always solves nonlinear problems in resdiual form `F(u;v) = 0`
