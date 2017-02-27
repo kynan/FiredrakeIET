@@ -73,7 +73,7 @@ The solve is of course where the magic happens and we'll get to that.
 ---
 
 class: center
-.scale80[![FEniCS](https://fenicsproject.org/wp-content/uploads/2016/12/fenics_banner.svg)]
+.scale50[![FEniCS](https://fenicsproject.org/wp-content/uploads/2016/12/fenics_banner.svg)]
 
 > The FEniCS Project is a collection of free software for automated, efficient
 > solution of differential equations.
@@ -82,7 +82,7 @@ class: center
 
 --
 
-.scale80[![Firedrake](http://firedrakeproject.org/_static/banner.png)]
+.scale50[![Firedrake](http://firedrakeproject.org/_static/banner.png)]
 
 > Firedrake is an automated system for the portable solution of partial
 > differential equations using the finite element method (FEM).

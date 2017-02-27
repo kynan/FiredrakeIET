@@ -114,6 +114,10 @@ code.has-jax {
 .scale80 img {
   width: 80%;
 }
+.scale50 img {
+  width: 50%;
+}
+
 
 /* https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 blockquote {
