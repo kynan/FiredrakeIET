@@ -6,7 +6,7 @@ class: center, middle, inverse
 
 ## **Florian Rathgeber**<sup>0</sup>, Lawrence Mitchell<sup>1</sup>, David Ham<sup>1,2</sup>, Michael Lange<sup>3</sup>, Andrew McRae<sup>2</sup>, Fabio Luporini<sup>1</sup>, Gheorghe-teodor Bercea<sup>1</sup>, Paul Kelly<sup>1</sup>
 
-Slides: http://kynan.github.io/FiredrakeSeminarSoton
+Slides: https://kynan.github.io/FiredrakeSeminarSoton
 
 .footnote[<sup>0</sup> Data Handling Team, Development Section, Forecast Department, ECMWF  
 <sup>1</sup> Department of Computing, Imperial College London  
@@ -47,7 +47,7 @@ solve(a == L, p)
 ```
 
 [Unified Form Language (UFL)](https://bitbucket.org/fenics-project/ufl)
-from the [FEniCS project](http://fenicsproject.org) to describe weak
+from the [FEniCS project](https://fenicsproject.org) to describe weak
 form of PDE
 
 ???
@@ -73,7 +73,7 @@ The solve is of course where the magic happens and we'll get to that.
 ---
 
 class: center
-.scale80[![FEniCS](http://fenicsproject.org/_static/fenics_banner.png)]
+.scale80[![FEniCS](https://fenicsproject.org/wp-content/uploads/2016/12/fenics_banner.svg)]
 
 > The FEniCS Project is a collection of free software for automated, efficient
 > solution of differential equations.
@@ -749,7 +749,7 @@ solve(A, p, b, bcs=bcs)  # bcs consistent, no need to reassemble
 
 .scale[![Firedrake](http://firedrakeproject.org/_static/banner.png)]
 
-.scale[![FEniCS](http://fenicsproject.org/_static/fenics_banner.png)]
+.scale[![FEniCS](https://fenicsproject.org/wp-content/uploads/2016/12/fenics_banner.svg)]
 ]
 .pull-right[
 ### ARCHER: Cray XC30 with Aries interconnect
@@ -897,18 +897,18 @@ Contact: Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <flor
 ## Resources
 
   * **PyOP2** https://github.com/OP2/PyOP2
-    * *[PyOP2: A High-Level Framework for Performance-Portable Simulations on Unstructured Meshes](http://dx.doi.org/10.1109/SC.Companion.2012.134)*  
+    * *[PyOP2: A High-Level Framework for Performance-Portable Simulations on Unstructured Meshes](https://dx.doi.org/10.1109/SC.Companion.2012.134)*  
       Florian Rathgeber, Graham R. Markall, Lawrence Mitchell, Nicholas Loriant, David A. Ham, Carlo Bertolli, Paul H.J. Kelly,
       WOLFHPC 2012
-    * *[Performance-Portable Finite Element Assembly Using PyOP2 and FEniCS](http://link.springer.com/chapter/10.1007/978-3-642-38750-0_21)*
+    * *[Performance-Portable Finite Element Assembly Using PyOP2 and FEniCS](https://link.springer.com/chapter/10.1007/978-3-642-38750-0_21)*
        Graham R. Markall, Florian Rathgeber, Lawrence Mitchell, Nicolas Loriant, Carlo Bertolli, David A. Ham, Paul H. J. Kelly ,
        ISC 2013
   * **Firedrake** https://github.com/firedrakeproject/firedrake
     * *[Productive and Efficient Computational Science Through Domain-specific Abstractions](https://wwwhomes.doc.ic.ac.uk/~fr710/Rathgeber-F-2014-PhD-Thesis.pdf)*  
       Florian Rathgeber, PhD thesis, October 2014
-    * *[Cross-Loop Optimization of Arithmetic Intensity for Finite Element Local Assembly](http://arxiv.org/abs/1407.0904)*
+    * *[Cross-Loop Optimization of Arithmetic Intensity for Finite Element Local Assembly](https://arxiv.org/abs/1407.0904)*
       Fabio Luporini, Ana Lucia Varbanescu, Florian Rathgeber, Gheorghe-Teodor Bercea, J. Ramanujam, David A. Ham, Paul H. J. Kelly
   * **UFL** https://bitbucket.org/mapdes/ufl
   * **FFC** https://bitbucket.org/mapdes/ffc
 
-**This talk** is available at http://kynan.github.io/FiredrakeSeminarSoton ([source](https://github.com/kynan/FiredrakeSeminarSoton)) &bullet; slides created with [remark](https://github.com/gnab/remark)
+**This talk** is available at https://kynan.github.io/FiredrakeSeminarSoton ([source](https://github.com/kynan/FiredrakeSeminarSoton)) &bullet; slides created with [remark](https://github.com/gnab/remark)

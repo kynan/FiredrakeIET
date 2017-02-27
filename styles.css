@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 
 .remark-slide .remark-slide-content {
   padding-left: 2em;
@@ -115,7 +115,7 @@ code.has-jax {
   width: 80%;
 }
 
-/* http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+/* https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;

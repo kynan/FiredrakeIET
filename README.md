@@ -13,7 +13,7 @@ Slides from an [invited seminar](http://cmg.soton.ac.uk/events/event-794/) at
 the [Computational Modelling Group](http://cmg.soton.ac.uk/) led by [Prof. Hans
 Fangohr](http://cmg.soton.ac.uk/people/fangohr/) at the University of
 Southampton on November 27th:
-http://kynan.github.io/FiredrakeSeminarSoton
+https://kynan.github.io/FiredrakeSeminarSoton
 
 Hans [blogged] about the seminar.
 
@@ -54,16 +54,16 @@ different finite element problems.
 ### Resources
 
   * **PyOP2** https://github.com/OP2/PyOP2
-    * *[PyOP2: A High-Level Framework for Performance-Portable Simulations on Unstructured Meshes](http://dx.doi.org/10.1109/SC.Companion.2012.134)*  
+    * *[PyOP2: A High-Level Framework for Performance-Portable Simulations on Unstructured Meshes](https://dx.doi.org/10.1109/SC.Companion.2012.134)*  
       Florian Rathgeber, Graham R. Markall, Lawrence Mitchell, Nicholas Loriant, David A. Ham, Carlo Bertolli, Paul H.J. Kelly,
       WOLFHPC 2012
-    * *[Performance-Portable Finite Element Assembly Using PyOP2 and FEniCS](http://link.springer.com/chapter/10.1007/978-3-642-38750-0_21)*  
+    * *[Performance-Portable Finite Element Assembly Using PyOP2 and FEniCS](https://link.springer.com/chapter/10.1007/978-3-642-38750-0_21)*  
        Graham R. Markall, Florian Rathgeber, Lawrence Mitchell, Nicolas Loriant, Carlo Bertolli, David A. Ham, Paul H. J. Kelly ,
        ISC 2013
   * **Firedrake** https://github.com/firedrakeproject/firedrake
     * *[Productive and Efficient Computational Science Through Domain-specific Abstractions](https://wwwhomes.doc.ic.ac.uk/~fr710/Rathgeber-F-2014-PhD-Thesis.pdf)*  
       Florian Rathgeber, PhD thesis, October 2014
-    * *[Cross-Loop Optimization of Arithmetic Intensity for Finite Element Local Assembly](http://arxiv.org/abs/1407.0904)*
+    * *[Cross-Loop Optimization of Arithmetic Intensity for Finite Element Local Assembly](https://arxiv.org/abs/1407.0904)*
       Fabio Luporini, Ana Lucia Varbanescu, Florian Rathgeber, Gheorghe-Teodor Bercea, J. Ramanujam, David A. Ham, Paul H. J. Kelly
   * **UFL** https://bitbucket.org/mapdes/ufl
   * **FFC** https://bitbucket.org/mapdes/ffc
