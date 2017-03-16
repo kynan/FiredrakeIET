@@ -6,7 +6,7 @@ class: center, middle, inverse
 
 ## **Florian Rathgeber**<sup>0</sup>, Lawrence Mitchell<sup>1</sup>, David Ham<sup>1,2</sup>, Michael Lange<sup>3</sup>, Andrew McRae<sup>2</sup>, Fabio Luporini<sup>1</sup>, Gheorghe-teodor Bercea<sup>1</sup>, Paul Kelly<sup>1</sup>
 
-Slides: https://kynan.github.io/FiredrakeSeminarSoton
+Slides: https://kynan.github.io/FiredrakeSeminarIET
 
 .footnote[<sup>0</sup> Data Handling Team, Development Section, Forecast Department, ECMWF  
 <sup>1</sup> Department of Computing, Imperial College London  
@@ -892,7 +892,7 @@ Crank-Nicolson time discretisation scheme:
 
 ## Thank you!
 
-Contact: Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <florian.rathgeber@imperial.ac.uk>
+Contact: Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <https://uk.linkedin.com/in/florianrathgeber>
 
 ## Resources
 
@@ -911,4 +911,4 @@ Contact: Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <flor
   * **UFL** https://bitbucket.org/mapdes/ufl
   * **FFC** https://bitbucket.org/mapdes/ffc
 
-**This talk** is available at https://kynan.github.io/FiredrakeSeminarSoton ([source](https://github.com/kynan/FiredrakeSeminarSoton)) &bullet; slides created with [remark](https://github.com/gnab/remark)
+**This talk** is available at https://kynan.github.io/FiredrakeSeminarIET ([source](https://github.com/kynan/FiredrakeSeminarIET)) &bullet; slides created with [remark](https://github.com/gnab/remark)
