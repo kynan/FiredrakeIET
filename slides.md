@@ -890,11 +890,11 @@ Crank-Nicolson time discretisation scheme:
 
 ---
 
-## Thank you!
+### Contact
 
-Contact: Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <https://uk.linkedin.com/in/florianrathgeber>
+Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <https://uk.linkedin.com/in/florianrathgeber>
 
-## Resources
+### Resources
 
   * **PyOP2** https://github.com/OP2/PyOP2
     * *[PyOP2: A High-Level Framework for Performance-Portable Simulations on Unstructured Meshes](https://dx.doi.org/10.1109/SC.Companion.2012.134)*  
@@ -904,7 +904,10 @@ Contact: Florian Rathgeber, [@frathgeber](https://twitter.com/frathgeber), <http
        Graham R. Markall, Florian Rathgeber, Lawrence Mitchell, Nicolas Loriant, Carlo Bertolli, David A. Ham, Paul H. J. Kelly ,
        ISC 2013
   * **Firedrake** https://github.com/firedrakeproject/firedrake
-    * *[Productive and Efficient Computational Science Through Domain-specific Abstractions](https://wwwhomes.doc.ic.ac.uk/~fr710/Rathgeber-F-2014-PhD-Thesis.pdf)*  
+    * *[Firedrake: Automating the Finite Element Method by Composing Abstractions](https://doi.acm.org/10.1145/2998441)*
+      Florian Rathgeber, David A. Ham, Lawrence Mitchell, Michael Lange, Fabio Luporini, Andrew T. T. Mcrae, Gheorghe-Teodor Bercea, Graham R. Markall, and Paul H. J. Kelly.
+      ACM Trans. Math. Softw. 43 (3): 24:1–24:27. January 2016
+    * *[Productive and Efficient Computational Science Through Domain-specific Abstractions](https://hdl.handle.net/10044/1/18911)*  
       Florian Rathgeber, PhD thesis, October 2014
     * *[Cross-Loop Optimization of Arithmetic Intensity for Finite Element Local Assembly](https://arxiv.org/abs/1407.0904)*
       Fabio Luporini, Ana Lucia Varbanescu, Florian Rathgeber, Gheorghe-Teodor Bercea, J. Ramanujam, David A. Ham, Paul H. J. Kelly
